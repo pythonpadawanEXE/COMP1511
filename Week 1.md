@@ -47,6 +47,37 @@ int main (void) {
  o
  -
 ```
+
+Open Terminal, change to desired directory
+```
+z5165158@vx7:/tmp_amd/ravel/export/ravel/3/z5165158/Desktop/COMP1511/week1$ gedit face0.c
+```
+
+```
+#include <stdio.h>
+
+int main (void) {
+    printf("~ ~\n0 0\n o\n -");
+    
+    return 0;
+}
+```
+Save as face0.c # ! IMPORTANT TO INCLUDE '.c' on end !
+
+Compile
+```
+z5165158@vx7:/tmp_amd/ravel/export/ravel/3/z5165158/Desktop/COMP1511/week1$ dcc face0.c -o face0
+```
+
+To run
+```
+z5165158@vx7:/tmp_amd/ravel/export/ravel/3/z5165158/Desktop/COMP1511/week1$ ./face0
+~ ~
+0 0
+ o
+
+```
+
 15. How would you compile this program?
 16. How could we modify it to make a program, face1.c, look like this instead?
 ```
