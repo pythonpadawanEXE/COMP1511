@@ -62,7 +62,8 @@ int main (void) {
     return 0;
 }
 ```
-Save as face0.c # ! IMPORTANT TO INCLUDE '.c' on end !
+Save as face0.c 
+# ! IMPORTANT TO INCLUDE '.c' on end of file name !
 
 Compile
 ```
@@ -86,4 +87,13 @@ z5165158@vx7:/tmp_amd/ravel/export/ravel/3/z5165158/Desktop/COMP1511/week1$ ./fa
 0 0
  o
 \_/
+```
+```
+#include <stdio.h>
+
+int main (void) {
+    printf("~ ~\n0 0\n o\n\\_/\n");
+    
+    return 0;
+}
 ```
