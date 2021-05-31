@@ -1,4 +1,4 @@
-#Introductions
+# Introductions
 
 11.How do you make a peanut-butter sandwich?
 
@@ -7,7 +7,7 @@ How could you break that process into steps?
 How could you break it down clearly enough that a computer could understand it?
 
 Maybe your tutor could do a live demonstration of a similar task following your exact instructions...
-#Operating Systems
+# Operating Systems
 
 12.What is an operating system?
 
@@ -19,7 +19,7 @@ What are some different ways in which you can interact with a computer?
 
 What are the differences between graphical user interfaces and the command line? When might one be better than the other?
 
-#Writing Some Code
+# Writing Some Code
 
 Discuss the following features of the sample program from lectures:
 
