@@ -37,15 +37,14 @@ What are the differences between each of the various operating systems? What dif
 
 What are some different ways in which you can interact with a computer?
 
-**-MOUSE
+**-MOUSE**
 
--KEYBOARD
+**-KEYBOARD**
 
--TOUCH
+**-TOUCH**
 
--CAMERA
+**-CAMERA**
 
-**
 What are the differences between graphical user interfaces and the command line? When might one be better than the other?
 
 # Writing Some Code
