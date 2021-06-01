@@ -11,7 +11,7 @@ How could you break that process into steps?
 
 How could you break it down clearly enough that a computer could understand it?
 
-    **
+   
     GET peanutbutter
 
     GET bread
@@ -22,7 +22,7 @@ How could you break it down clearly enough that a computer could understand it?
 
     ADD peanutbutter TO knife
 
-    USE knife ON bread**
+    USE knife ON bread
 
 Maybe your tutor could do a live demonstration of a similar task following your exact instructions...
 # Operating Systems
