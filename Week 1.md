@@ -11,17 +11,17 @@ How could you break that process into steps?
 
 How could you break it down clearly enough that a computer could understand it?
 
-**
-GET peanutbutter
+    **
+    GET peanutbutter
 
-GET bread
+    GET bread
 
-GET knife
+    GET knife
 
-WHILE bread IS NOT COVERED:
+    WHILE bread IS NOT COVERED:
 
     ADD peanutbutter TO knife
-    
+
     USE knife ON bread**
 
 Maybe your tutor could do a live demonstration of a similar task following your exact instructions...
