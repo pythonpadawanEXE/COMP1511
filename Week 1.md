@@ -28,6 +28,7 @@ Maybe your tutor could do a live demonstration of a similar task following your 
 # Operating Systems
 
 12.What is an operating system?
+**SOFTWARE THAT INTERFACES BETWEEN OUR CODE AND THE COMPUTER HARDWARE**
 
 What operating systems do your classmates run? The tute room? The CSE lab (and VLAB) computers?
 
