@@ -16,7 +16,7 @@ GET bread
 GET knife
 WHILE bread IS NOT COVERED:
     ADD peanutbutter TO knife
-    USE knife ON _bread_**
+    USE knife ON bread**
 
 Maybe your tutor could do a live demonstration of a similar task following your exact instructions...
 # Operating Systems
