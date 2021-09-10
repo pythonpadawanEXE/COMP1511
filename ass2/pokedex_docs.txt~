@@ -1,0 +1,115 @@
+[COMP1511 Extension Work]
+
+Write a summary of how you made the changes that you did:
+
+[E1:Summary] {{{
+   SAVING AND LOADING POKEDEX CHANGES SUMMARY
+-------------------------------------------------
+The savepokedex function was implemented by mallocing a string given my the 
+number of lines multipled by the maximum size of each line. The save string 
+function was used to write this string to a directory with a specified filename
+onto the non-volatile memory. This string was then freed.
+
+The load function was implemented whereby the load string function returned a 
+pointer to a string which was read from a file stream pointer, pointing to a 
+'.txt' file in the non-volatile memory. This string was then processed line by 
+line by considering the newline character, a modified version of the do_add
+function called add_line was used to process each line and add each pokemon into
+a new mallocced pokedex.
+}}}
+
+Write two tests to test your implementation of Extension 1 (Saving & Loading).
+
+[E1:Test 1] {{{
+a 1 Bulbasaur 0.7 6.9 poison grass
+a 4 Charmander 0.6 8.5 fire none
+a 7 Squirtle 0.5 9.0 water none
+a 2 Ivysaur 1.0 13.0 poison grass
+a 5 Charmeleon 1.1 19.0 fire none
+a 8 Wartortle 1.0 22.5 water none
+a 3 Venusaur 2.0 100.0 poison grass
+a 6 Charizard 1.7 90.5 flying fire
+a 9 Blastoise 1.6 85.5 water none
+S testfile
+a 10 Charizard 1.7 90.5 flying fire
+a 15 Blastoise 1.6 85.5 water none
+L testfile
+}}}
+
+[E1:Test 2] {{{
+a 1 Bulbasaur 0.7 6.9 poison grass
+a 4 Charmander 0.6 8.5 fire none
+a 7 Squirtle 0.5 9.0 water none
+a 2 Ivysaur 1.0 13.0 poison grass
+a 5 Charmeleon 1.1 19.0 fire none
+i 8 Wartortle 1.0 22.5 water none
+S testfile
+i 3 Venusaur 2.0 100.0 poison grass
+L testfile
+a 6 Charizard 1.7 90.5 flying fire
+a 9 Blastoise 1.6 85.5 water none
+S testfile
+a 10 Charizard 1.7 90.5 flying fire
+a 15 Blastoise 1.6 85.5 water none
+L testfile
+}}}
+
+===========================================================================
+
+Write a summary of how you made the changes that you did:
+
+[E2:Summary] {{{
+   GETTING SUB_LISTS CHANGES SUMMARY
+-------------------------------------------------
+Pokedex struct changed to include previous and next pokedex pointers.
+
+Get pokemon of typefunction create new pokedex with previous poke and next 
+pokedex pointers and add pokemon to the lists if found and of same type as 
+original or nested pokedex.
+
+Get found pokemon creates new pokedex with previous poke and next 
+pokedex pointers and add pokemon to the lists if found.
+
+Get found pokemon creates new pokedex with previous poke and next 
+pokedex pointers and add pokemon to the lists if found and if pokemon name
+contains specified substring.
+
+End search function frees all pokedex except the original pokedex.
+}}}
+
+Write two tests to test your implementation of Extension 2 (Sub-Lists).
+
+[E2:Test 1] {{{
+a 1 Bulbasaur 0.7 6.9 poison grass
+a 4 Charmander 0.6 8.5 fire none
+a 7 Squirtle 0.5 9.0 water none
+a 2 Ivysaur 1.0 13.0 poison grass
+a 5 Charmeleon 1.1 19.0 fire none
+i 8 Wartortle 1.0 22.5 water none
+R saur
+p
+T poison
+p
+T grass
+p
+E
+}}}
+
+[E2:Test 2] {{{
+a 1 Bulbasaur 0.7 6.9 poison grass
+a 4 Charmander 0.6 8.5 fire none
+a 7 Squirtle 0.5 9.0 water none
+i 2 Ivysaur 1.0 13.0 poison grass
+i 5 Charmeleon 1.1 19.0 fire none
+a 8 Wartortle 1.0 22.5 water none
+i 3 Venusaur 2.0 100.0 poison grass
+a 6 Charizard 1.7 90.5 flying fire
+a 9 Blastoise 1.6 85.5 water none
+a 10 Charizard 1.7 90.5 flying fire
+a 15 Blastoise 1.6 85.5 water none
+>
+>
+F
+p
+E
+}}}

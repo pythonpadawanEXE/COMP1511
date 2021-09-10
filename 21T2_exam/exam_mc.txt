@@ -1,0 +1,111 @@
+[COMP1511 Final Exam]
+You should edit the empty space between the curly braces.
+You should not edit anything else in this file.
+
+You can test this file conforms to the correct syntax with "1511 autotest-exam exam_mc"
+
+You should submit this file with the command "give cs1511 exam_mc exam_mc.txt"
+
+If you need a new copy of the file, move this file to a safe place,
+then run "1511 fetch-exam".
+
+q1: What does this program print? (see the exam paper for details)
+Enter your answer inside the curly brackets (extra spaces are ignored)
+[q1]{{{ d }}}
+
+
+q2: What does this program print? (see the exam paper for details)
+Enter your answer inside the curly brackets (extra spaces are ignored)
+[q2]{{{Tom prefers dogs.  }}}
+
+
+q3: Which input would cause the function not to print? (see the exam paper for details)
+Enter your answer as one of A, B, C, D or E inside the curly brackets (extra spaces are ignored)
+[q3]{{{C  }}}
+
+
+q4: What code would correctly set the #define? (see the exam paper for details)
+Enter your answer as a full line of code inside the curly brackets (extra spaces are ignored)
+[q4]{{{#define MY_INDEX 1 }}}
+
+
+q5: Which variables will NOT be equal to 0 by the end of the main function? (see the exam paper for details)
+Enter your answer as some of A, B, C and D inside the curly brackets (extra spaces are ignored)
+[q5]{{{AD  }}}
+
+
+q6: What code should replace [SECRET]? (see the exam paper for details)
+Enter your answer as a full line of code inside the curly brackets (extra spaces are ignored)
+[q6]{{{double *a,double *b  }}}
+
+
+q7: Which four characters have been removed from the end of the file? (see the exam paper for details)
+Enter your answer inside the curly brackets (extra spaces are ignored)
+[q7]{{{5  }}}
+
+
+q8: What four values does i have in this code? (see the exam paper for details)
+Enter your answer as four integers seperated by spaces inside the curly brackets (extra spaces are ignored)
+[q8]{{{0 1 4 5  }}}
+
+
+q9: What code should replace [SECRET]? (see the exam paper for details)
+Enter your answer inside the curly brackets (extra spaces are ignored)
+[q9]{{{4,3,0,-7,-3  }}}
+
+
+q10: Which Code Style issues are present in this code? (see the exam paper for details)
+Enter your answer as some of A, B, C, D and E inside the curly brackets (extra spaces are ignored)
+[q10]{{{BCE  }}}
+
+
+q11: Which diagram represents the new state of the list? (see the exam paper for details)
+Enter your answer as one of A, B, C, D or E inside the curly brackets (extra spaces are ignored)
+[q11]{{{E  }}}
+
+
+q12: Which line first causes an invalid access to memory? (see the exam paper for details)
+Enter your answer as a number inside the curly brackets (extra spaces are ignored)
+[q12]{{{9  }}}
+
+
+q13: Give an example of an input that could replace [SECRET] (see the exam paper for details)
+Enter your answer inside the curly brackets (extra spaces are ignored)
+[q13]{{{ach am yes  }}}
+
+
+q14: Which line does the program first lose access to a piece of malloced memory? (see the exam paper for details)
+Enter your answer as a number inside the curly brackets (extra spaces are ignored)
+[q14]{{{12  }}}
+
+
+q15: Which struct best stores the information described? (see the exam paper for details)
+Enter your answer as one of A, B, C, D or E inside the curly brackets (extra spaces are ignored)
+[q15]{{{A  }}}
+
+
+q16: Which cases will not produce a correct result? (see the exam paper for details)
+Enter your answer as one of A, B, C, D or E inside the curly brackets (extra spaces are ignored)
+[q16]{{{D  }}}
+
+
+q17: What code should replace [SECRET]? (see the exam paper for details)
+Enter your answer as a full line of code inside the curly brackets (extra spaces are ignored)
+[q17]{{{n*factorial(n-1) }}}
+
+
+q18: Which statements are correct? (see the exam paper for details)
+Enter your answer as some of A, B, C, D and E inside the curly brackets (extra spaces are ignored)
+[q18]{{{ABE  }}}
+
+
+q19: Which states are ones that the stack will be in? (see the exam paper for details)
+Enter your answer as one of A, B, C or D inside the curly brackets (extra spaces are ignored)
+[q19]{{{AC  }}}
+
+
+q20: What code should replace [SECRET]? (see the exam paper for details)
+Enter your answer as a full line of code inside the curly brackets (extra spaces are ignored)
+[q20]{{{string_length >= 3 && argv[i][2] == 'h'  }}}
+
+

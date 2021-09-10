@@ -1,0 +1,94 @@
+[COMP1511 Extension Work]
+
+Write a summary of how you made the changes that you did:
+
+[E1:Summary] {{{
+    FLAG MINE CHANGES SUMMARY
+---------------------------------
+Flag functionality added for game_mode printing to allow user to interact with 
+the board and propose possible locations of mine which can be checked with 
+reveal_cross, reveal_cross has been heavily modified to allow for this change 
+and several functions have been added.
+
+Addition of Flags array to store flag locations and print flags for game_mode   
+printing.
+
+NEW FUNCTIONS:
+
+force_unhide - reveals square and returns 0 if safe or return 1 to start explode 
+sequence once - all connected squares are checked
+check_in_flags - check if a square is flagged or not
+init_flags - initaites flag array of size 64 with -1 values
+place_flag - place or remove a flag depending on if it exists already
+
+
+}}}
+
+Write two tests to test your implementation of Extension 1 ("Flag Mines").
+
+[E1:Test 1] {{{
+3
+0 1
+1 1
+1 2
+4
+5 0 0
+5 1 0
+5 0 2
+5 1 1
+3 1 1
+5 1 1
+3 2 1
+}}}
+[E1:Test 2] {{{
+2
+1 0
+1 2
+4
+5 0 1
+3 1 1
+}}}
+
+===========================================================================
+
+Write a summary of how you made the changes that you did:
+
+[E2:Summary] {{{
+
+DEFUSE MINE CHANGES SUMMARY
+-----------------------------
+Defuse mines within a 3 x 3 grid then defuse mines that are in the same direction
+as the connected squares from the selected square but one more square in that 
+direction. Anything squares within this area with a HIDDEN_MINE value will be
+assigned a HIDDEN_SAFE value.
+
+The distance formula has not been used in this case but may be more applicable
+for future work if the grid size were to change.
+
+NEW FUNCTIONS:
+defuse_mines - defuses mines in first selected square and saves locations
+of defuse mines for a second defuse round
+second_defuse - defuses mines in second defuse round does not continue for more
+rounds of defusing
+
+NEW ARRAY:
+first_defuse_list - used to record all the defused mine locations in the first 
+round of defusing
+
+}}}
+
+Write two tests to test your implementation of Extension 2 ("Defuse").
+
+[E2:Test 1] {{{
+10
+0 0
+2 2
+6 6
+7 7
+0 7
+7 0
+0 1
+}}}
+[E2:Test 2] {{{
+
+}}}

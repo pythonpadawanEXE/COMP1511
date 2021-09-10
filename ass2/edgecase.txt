@@ -1,0 +1,20 @@
+a 4 Charmander 0.6 8.5 fire none
+a 7 Squirtle 0.5 9.0 water none
+i 2 Ivysaur 1.0 13.0 poison grass
+i 5 Charmeleon 1.1 19.0 fire none
+a 8 Wartortle 1.0 22.5 water none
+i 3 Venusaur 2.0 100.0 poison grass
+a 6 Charizard 1.7 90.5 flying fire
+p
+> 
+f 1
+> 
+f 1
+p
+>
+>
+>
+>
+>
+T fire
+p

@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main(void) {
+    int chick3n = 3;
+     printf("Hello World, I'm %d years old.", chick3n);
+     
+   return 0;
+}
